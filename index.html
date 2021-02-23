@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Vargi-Bots</title>
-
+    <link rel="shortcut icon" href="./img/robotHead.png" type="image/x-icon">
     <link
     rel="stylesheet"
     href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
@@ -106,8 +106,9 @@
                 }else{
                   color = "red"
                 }
+
                 var greenIcon = L.icon({
-                    iconUrl:  color+'Marker.png',
+                    iconUrl:  './img/'+color+'Marker.png',
                     // shadowUrl: 'leaf-shadow.png',
 
                     iconSize:     [40,40], // size of the icon
